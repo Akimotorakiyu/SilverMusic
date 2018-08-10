@@ -2,6 +2,10 @@
 
 SilverMusic是16音律音乐的软件实现。
 
+## 示例
+
+* [Demo with triangle wave](http://dev.saigao.fun/playground/silvermusic/triangle.html)
+* [Demo with sine wave](http://dev.saigao.fun/playground/silvermusic/sine.html)
 
 ## 里程碑
 ### 第一个里程碑
