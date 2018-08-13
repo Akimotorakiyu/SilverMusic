@@ -1,27 +1,30 @@
 # SilverMusic
 
-SilverMusic是16音律音乐的软件实现。
+SilverMusic是和谐音律音乐的理论基础、音律以及软件实现。
 
 ## 示例
+
+### 八音十六律示例：
 
 * [Demo with triangle wave](http://dev.saigao.fun/playground/silvermusic/triangle.html)
 * [Demo with sine wave](http://dev.saigao.fun/playground/silvermusic/sine.html)
 
 ## 里程碑
-### 第一个里程碑
 
-实现一个五个9度的十六音律的模拟器
+### 目标1
 
-### 第二个里程碑
+音律体系
 
-为模拟器实现类钢琴音色
+### 目标2
 
-### 第三个里程碑
+软件系统
+
+### 最终里程碑
 
 实现乐曲《梦中的我，我的梦》
 
 ## 持续工作
 
-完善16音律理论
+持续完善音律理论与软件实现
 
 MIT
