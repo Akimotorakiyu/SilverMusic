@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{164:function(t,e,n){"use strict";n.r(e);var s=n(0),c=Object(s.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("center",{staticClass:"footer"},[this._v("我们所弹奏的每个平凡的音符，也许就是连续演奏的奇迹。")])],1)},[],!1,null,null,null);e.default=c.exports}}]);
