@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 actionText: f=A·2^(x/n) x,n∈N+ →
-actionLink: /
+actionLink: /basic/
 features:
 - title: 和谐
   details: 音律严格对应。

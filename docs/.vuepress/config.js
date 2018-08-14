@@ -2,7 +2,7 @@ module.exports = {
     // 默认标题，会被地区标题覆盖
     title: "Silver Music",
     // 默认描述，会被地区描述覆盖
-    description: "和音谐律",
+    description: "一颗满怀期待的种子",
     base: "/",
     dest: "build",
     port: "8080",
@@ -68,6 +68,8 @@ module.exports = {
                 children: [
                     '/twelve/',
                     '/twelve/chord',
+
+                    '/twelve/more',
                 ]
             }],
             // 除此之外还可以自定侧边栏
@@ -76,13 +78,19 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '/sixteen/',
-                    '/sixteen/chord'
+                    '/sixteen/chord',
+
+                    '/sixteen/more',
                 ]
             }],
             '/basic/': [{
                 title: '音律基础',
                 collapsable: false,
-                children: []
+                children: [
+                    '/basic/',
+
+                    '/basic/more',
+                ]
             }],
         }
     }
