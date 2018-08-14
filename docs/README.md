@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /logo.png
 actionText: f=A·2^(x/n) x,n∈N+ →
 actionLink: /basic/
 features:
