@@ -46,7 +46,7 @@ module.exports = {
             },
             {
                 text: "六音十二律",
-                link: "/tweleve/"
+                link: "/twelve/"
             },
             {
                 text: "八音十六律",
@@ -62,21 +62,25 @@ module.exports = {
             },
         ],
         sidebar: {
-            '/note/': [{
-                title: '笔记',
+            '/twelve/': [{
+                title: '六音十二律',
                 collapsable: false,
                 children: [
-                    '/note/learning',
+                    '/twelve/',
+                    '/twelve/chord',
                 ]
             }],
             // 除此之外还可以自定侧边栏
-            '/essay/': [{
-                title: '随笔',
+            '/sixteen/': [{
+                title: '八音十六律',
                 collapsable: false,
-                children: []
+                children: [
+                    '/sixteen/',
+                    '/sixteen/chord'
+                ]
             }],
-            '/essay/': [{
-                title: '生活',
+            '/basic/': [{
+                title: '音律基础',
                 collapsable: false,
                 children: []
             }],
