@@ -6,8 +6,20 @@ Silver Music的音律不同于教科书上的音律，如有疑问和建议，�
 
 ::: warning
 Silver Music的音律不同于教科书上的音律，如有不适，敬请离开！
+
 :::
+
+
+## 响度
+
+<center class="footer"><img :src="$withBase('/basic/db.png')" alt="频响曲线"></center >
+
+
+由频响曲线可知，人耳对高音敏感。频率在20-20000Hz。
+
 ## 泛音列
+<center class="footer"><img :src="$withBase('/basic/wave.png')" alt="select"></center >
+
 
 乐器频谱中所包含的频率，主要由乐器所产生的驻波以及驻波的附近频率的波决定。不同乐器的发声材质不一样，管乐是空气柱振动发声，弦乐是琴弦振动发声，鼓则是鼓面振动发声。
 而在这些振动的材质上，只有驻波以及驻波的附近频率的波能产生较为稳定的振动，其他的波会很快耗散消失。后面默认为弦乐对应的计算方法。
