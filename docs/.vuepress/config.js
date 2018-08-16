@@ -13,7 +13,9 @@ module.exports = {
         },
     },
     markdown: {
-        // options for markdown-it-anchor
+        // Vuepress已经内置了markdown-it及一些模块
+        // 详见Vuepress的package。json
+        // md为markdown-it的实例对象
         // 添加数学公式支持
         config: md => {
             md.use(require("markdown-it-katex"));
@@ -51,6 +53,14 @@ module.exports = {
             {
                 text: "八音十六律",
                 link: "/sixteen/"
+            },
+            {
+                text: "五音十律",
+                link: "/ten/"
+            },
+            {
+                text: "七音十四律",
+                link: "/fourteen/"
             },
             {
                 text: "Github",
