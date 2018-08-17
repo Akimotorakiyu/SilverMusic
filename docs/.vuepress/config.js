@@ -72,36 +72,58 @@ module.exports = {
             },
         ],
         sidebar: {
-            '/twelve/': [{
-                title: '六音十二律',
-                collapsable: false,
-                children: [
-                    '/twelve/',
-                    '/twelve/chord',
+            '/': [{
+                    title: '音律基础',
+                    collapsable: false,
+                    children: [
+                        '/basic/',
+                        '/basic/noteAndLine',
 
-                    '/twelve/more',
-                ]
-            }],
-            // 除此之外还可以自定侧边栏
-            '/sixteen/': [{
-                title: '八音十六律',
-                collapsable: false,
-                children: [
-                    '/sixteen/',
-                    '/sixteen/chord',
+                        '/basic/more',
+                    ]
+                },
+                {
+                    title: '六音十二律',
+                    collapsable: false,
+                    children: [
+                        '/twelve/',
+                        '/twelve/chord',
 
-                    '/sixteen/more',
-                ]
-            }],
-            '/basic/': [{
-                title: '音律基础',
-                collapsable: false,
-                children: [
-                    '/basic/',
+                        '/twelve/more',
+                    ]
+                },
 
-                    '/basic/more',
-                ]
-            }],
+                {
+                    title: '八音十六律',
+                    collapsable: false,
+                    children: [
+                        '/sixteen/',
+                        '/sixteen/chord',
+
+                        '/sixteen/more',
+                    ]
+                },
+                {
+                    title: '五音十律',
+                    collapsable: false,
+                    children: [
+                        '/ten/',
+                        '/ten/chord',
+
+                        '/ten/more',
+                    ]
+                },
+                {
+                    title: '七音十四律',
+                    collapsable: false,
+                    children: [
+                        '/fourteen/',
+                        '/fourteen/chord',
+
+                        '/fourteen/more',
+                    ]
+                },
+            ],
         }
     }
 }
