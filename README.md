@@ -19,6 +19,8 @@ SilverMusic是和谐音律音乐的理论基础、音律以及软件实现。
 
 软件系统
 
+基于Freepiano的[六音十二律钢琴仓库](https://github.com/SilverLeaves/freepiano)
+
 ### 最终里程碑
 
 实现乐曲《梦中的我，我的梦》
