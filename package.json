@@ -14,5 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "markdown-it-katex": "^2.0.3"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.10"
   }
 }
